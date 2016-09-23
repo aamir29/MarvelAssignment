@@ -266,19 +266,26 @@
                                             <frame key="frameInset" width="383" height="149"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPf-Tp-4aR">
-                                                    <frame key="frameInset" minX="8" width="34" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Event" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPf-Tp-4aR">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="W68-wf-LSi"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
                                                     <color key="textColor" red="0.85490196080000003" green="0.1960784314" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="201" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpG-s2-ddn">
-                                                    <frame key="frameInset" minY="19" width="383" height="130"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="201" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vpG-s2-ddn">
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </scrollView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="vpG-s2-ddn" secondAttribute="bottom" id="89R-hp-TaE"/>
+                                                <constraint firstAttribute="trailing" secondItem="vpG-s2-ddn" secondAttribute="trailing" id="FQw-XB-h2U"/>
+                                                <constraint firstItem="YPf-Tp-4aR" firstAttribute="top" secondItem="CFU-DP-l3P" secondAttribute="top" id="bhf-es-dMd"/>
+                                                <constraint firstItem="vpG-s2-ddn" firstAttribute="leading" secondItem="CFU-DP-l3P" secondAttribute="leading" id="mYS-fa-33j"/>
+                                                <constraint firstItem="YPf-Tp-4aR" firstAttribute="leading" secondItem="CFU-DP-l3P" secondAttribute="leading" constant="8" id="x3R-e0-hqm"/>
+                                                <constraint firstItem="vpG-s2-ddn" firstAttribute="top" secondItem="YPf-Tp-4aR" secondAttribute="bottom" constant="-2" id="zTh-Iv-bYO"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
