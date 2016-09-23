@@ -31,7 +31,7 @@
 		2555510C1D93F45B00DD8309 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 255551041D93F45B00DD8309 /* AFURLRequestSerialization.m */; };
 		2555510D1D93F45B00DD8309 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 255551061D93F45B00DD8309 /* AFURLResponseSerialization.m */; };
 		2555510E1D93F45B00DD8309 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 255551081D93F45B00DD8309 /* AFURLSessionManager.m */; };
-		255551111D941FA900DD8309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2555510F1D941FA900DD8309 /* Main.storyboard */; };
+		6514B11D1D95C64800E32B37 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6514B11C1D95C64800E32B37 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +104,7 @@
 		255551061D93F45B00DD8309 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		255551071D93F45B00DD8309 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		255551081D93F45B00DD8309 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		255551101D941FA900DD8309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6514B11C1D95C64800E32B37 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 				658919C91D958BF7004D45E2 /* Model */,
 				658919C81D958BC1004D45E2 /* Controllers */,
 				25512D381D9133BD0020CBA5 /* Assets.xcassets */,
-				2555510F1D941FA900DD8309 /* Main.storyboard */,
+				6514B11C1D95C64800E32B37 /* Storyboard.storyboard */,
 				25512D3A1D9133BD0020CBA5 /* LaunchScreen.storyboard */,
 				25512D3D1D9133BD0020CBA5 /* Info.plist */,
 				25512D2C1D9133BD0020CBA5 /* Supporting Files */,
@@ -366,7 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				255551111D941FA900DD8309 /* Main.storyboard in Resources */,
+				6514B11D1D95C64800E32B37 /* Storyboard.storyboard in Resources */,
 				25512D3C1D9133BD0020CBA5 /* LaunchScreen.storyboard in Resources */,
 				25512D391D9133BD0020CBA5 /* Assets.xcassets in Resources */,
 			);
@@ -454,14 +454,6 @@
 				25512D3B1D9133BD0020CBA5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2555510F1D941FA900DD8309 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				255551101D941FA900DD8309 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
